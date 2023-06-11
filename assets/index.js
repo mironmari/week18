@@ -45,26 +45,6 @@ let objects = [
 ];
 
 
-/*const button = document.createElement('button')
-button.innerText = 'Click me';
-document.body.appendChild(button);
-
-button.addEventListener('click', () => {
-  arr.forEach(function (item) {
-    console.log(item + '.');
-});
-})*/
-/*const box = document.createElement("div");
-box.innerText = '1';
-box.classList.add("box");
-const container = document.getElementById("directors");
-container.append(box);
-
-
-const name1 = document.createElement("p");
-name1.innerText = `Name: `;
-box.append(name1);*/
-
 document.write('<ol start="1">');
 objects.forEach( object => {
 document.write(`<li><span style="font-size: 24px">${object.name}</span><br>
